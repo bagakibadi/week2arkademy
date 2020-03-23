@@ -1,7 +1,7 @@
 function transpose(data) {
-    var penampung = [];
-    for (var i = 0; i < data.length; i++) {
-        for (var j = 0; j < data[i].length; j++) {
+    let penampung = [];
+    for (let i = 0; i < data.length; i++) {
+        for (let j = 0; j < data[i].length; j++) {
             if (penampung[j] === undefined){ 
               penampung[j] = [];
             };
